@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+        }
+        #div1{
+           
+            background-color: red;
+        }
+        #div2{
+            
+         
+            background-color: blue;
+            width: 400px;
+            height: 400px;
+            position: relative;
+        }
+        #div3{
+            /*부모를 기준으로 좌측 최상단으로 이동*/
+            background-color: yellow;
+            position:absolute;
+            top: 0;
+            left: 0;
+        }
+        #div4{
+            background-color: pink;
+            position: fixed;
+            right: 0px;
+            bottom: 0px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+    <div id="div2">
+        <div id="div3"></div>
+    </div>
+    <div id="div4"></div>
+</body>
+</html>

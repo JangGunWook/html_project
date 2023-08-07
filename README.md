@@ -4,8 +4,8 @@
 
 
 ### 개발환경
-language : html, CSS
-IDE : visual studio code
+* language : html, CSS
+* IDE : visual studio code
 
 ## 💻 과업
 * 글자입력하기

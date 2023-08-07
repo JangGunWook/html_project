@@ -1,5 +1,8 @@
 # html_study
 
+[[네이버][https://blog.naver.com/zhsksrjsdnr](https://blog.naver.com/zhsksrjsdnr)]
+
+
 ### 개발환경
 language : html, CSS
 IDE : visual studio code

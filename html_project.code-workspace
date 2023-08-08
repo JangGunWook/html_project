@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "html_project",
+			"path": "."
+		},
+		{
+			"name": "python_study",
+			"path": "../../python_study - 복사본/python_study"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html_project"
+	}
+}

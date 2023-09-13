@@ -9,32 +9,43 @@
         h1{
             color: red;
         }
+
+        table{
+            width:"400px";
+        }
+        th{
+            height:"50px";
+            background-color: gray;
+        }
+        tr{
+            height:"35px";
+        }
     </style>
 </head>
 <body>
-    <table width="400px">
+    <table >
         <tr>
-            <th colspan="2" bgcolor="gray" height="50px">
+            <th colspan="2" align="left" >
                 Step1 : 아이디/비번입력
             </th>
         </tr>
-        <tr bgcolor="whitesmoke" height="35px">
+        <tr bgcolor="whitesmoke">
             <td align="right">아이디</td>
             <td><input type="text" name="id"></td>
         </tr>
-        <tr bgcolor="whitesmoke" height="35px">
+        <tr bgcolor="whitesmoke" >
             <td align="right">비밀번호</td>
             <td><input type="password" name="pw"></td>
         </tr>
-        <tr bgcolor="whitesmoke" height="35px">
+        <tr bgcolor="whitesmoke" >
             <td align="right" >비밀번호 확인</td>
             <td><input type="password" name="pw2"></td>
         </tr>
 
         <tr>
-            <th colspan="2" bgcolor="gray" height="50px">Step2 : 개인정보</th>
+            <th colspan="2" align="left">Step2 : 개인정보</th>
         </tr>
-        <tr bgcolor="whitesmoke" height="35px">
+        <tr bgcolor="whitesmoke">
             <td  align="right"> 
                 성별 
             </td>  
@@ -44,7 +55,7 @@
             </td>
             
         </tr>
-        <tr bgcolor="whitesmoke" height="35px">
+        <tr bgcolor="whitesmoke">
             <td  align="right">
                 혈액형
             </td>
@@ -55,7 +66,7 @@
                 </select>
             </td>
         </tr>
-        <tr bgcolor="whitesmoke" height="35px">
+        <tr bgcolor="whitesmoke">
             <td align="right" >생일
             </td>
             <td>
@@ -63,11 +74,11 @@
             </td>
         </tr>
         <tr>
-            <th colspan="2" bgcolor="gray" height="50px">
+            <th colspan="2" align="left">
                 Step3 : 선호도
             </th>
         </tr>
-        <tr bgcolor="whitesmoke" height="35px">
+        <tr bgcolor="whitesmoke">
             <td  align="right"> 
                 취미
             </td>  
@@ -78,7 +89,7 @@
             </td>
             
         </tr>
-        <tr bgcolor="whitesmoke" height="35px">
+        <tr bgcolor="whitesmoke">
             <td  align="right">
                 좋아하는 색깔
             </td>
@@ -87,11 +98,11 @@
             </td>
         </tr>
         <tr>
-            <th colspan="2" bgcolor="gray" height="50px">
+            <th colspan="2">
                 Step4 : 하고싶은 말
             </th>
         </tr>
-        <tr bgcolor="whitesmoke" height="35px">
+        <tr bgcolor="whitesmoke" align="left">
             <td colspan="2">
                 <textarea  name="" id="" cols="60" rows="5"></textarea>
             </td>
@@ -99,7 +110,7 @@
         <tr >
             <td colspan="2" align="center">
                 <input type="submit" name="" id="" value="제출">
-                <input type="reset" name="" id="" value="리셋">
+                <input type="reset" name="" id="" value="초기화">
             </td>
         </tr>
     </table>
